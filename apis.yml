@@ -1,24 +1,17 @@
 aid: flipboard
-url: 
-  https://raw.githubusercontent.com/api-evangelist/flipboard/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/flipboard/refs/heads/main/apis.yml
 apis:
   - aid: flipboard:rss-feeds
     name: Flipboard RSS Feeds
-    description: Flipboard supports RSS feeds as the primary integration 
-      mechanism for publishers and content creators. Publishers can submit RSS 
-      feeds to be featured as Flipboard Magazines, enabling content distribution
-      to Flipboard's audience. Feeds must meet Flipboard's RSS guidelines, 
-      including full article body content, images of at least 400px wide, at 
-      least 30 items, and updates pushed via PubSubHubbub.
-    image: 
-      https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    description: Flipboard supports RSS feeds as the primary integration mechanism for publishers and content creators. Publishers can submit RSS feeds to be featured as Flipboard Magazines, enabling content distribution to Flipboard's audience. Feeds must meet Flipboard's RSS guidelines, including full article body content, images of at least 400px wide, at least 30 items, and updates pushed via PubSubHubbub.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://about.flipboard.com/rss-guidelines/
     baseURL: https://flipboard.com
     tags:
-      - RSS
       - Content Syndication
-      - Publishers
       - News
+      - Publishers
+      - RSS
     properties:
       - url: https://about.flipboard.com/rss-guidelines/
         type: Documentation
@@ -26,46 +19,36 @@ apis:
         type: GettingStarted
       - url: https://feedvalidator.flipboard.com/
         type: Validator
-      - url: 
-          https://flipboard.helpshift.com/hc/en/1-flipboard/faq/1024-submit-a-publisher-application/
+      - url: https://flipboard.helpshift.com/hc/en/1-flipboard/faq/1024-submit-a-publisher-application/
         type: GettingStarted
   - aid: flipboard:activitypub
     name: Flipboard ActivityPub
-    description: Flipboard has implemented the ActivityPub protocol, making its 
-      content available to the broader Fediverse. Starting in 2023, Flipboard 
-      began federating its magazines and curators via ActivityPub, allowing 
-      users on Mastodon, Threads, Pixelfed, and other ActivityPub-compatible 
-      platforms to follow and interact with Flipboard content. Flipboard's full 
-      architecture is built around ActivityPub.
-    image: 
-      https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: 
-      https://about.flipboard.com/inside-flipboard/flipboard-begins-to-federate/
+    description: Flipboard has implemented the ActivityPub protocol, making its content available to the broader Fediverse. Starting in 2023, Flipboard began federating its magazines and curators via ActivityPub, allowing users on Mastodon, Threads, Pixelfed, and other ActivityPub-compatible platforms to follow and interact with Flipboard content. Flipboard's full architecture is built around ActivityPub.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://about.flipboard.com/inside-flipboard/flipboard-begins-to-federate/
     baseURL: https://flipboard.com
     tags:
       - ActivityPub
+      - Decentralized
       - Fediverse
       - Mastodon
-      - Decentralized
       - Open Social Web
     properties:
       - url: https://github.com/Flipboard/activitypub
         type: GitHubRepository
-      - url: 
-          https://about.flipboard.com/inside-flipboard/flipboard-begins-to-federate/
+      - url: https://about.flipboard.com/inside-flipboard/flipboard-begins-to-federate/
         type: Announcement
-      - url: 
-          https://about.flipboard.com/business/publisher-federation-flipboard/
+      - url: https://about.flipboard.com/business/publisher-federation-flipboard/
         type: Guide
 name: Flipboard
 tags:
+  - ActivityPub
   - Content Curation
-  - Social Media
+  - Digital Publishing
+  - Fediverse
   - News
   - RSS
-  - ActivityPub
-  - Fediverse
-  - Digital Publishing
+  - Social Media
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
