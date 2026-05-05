@@ -1,0 +1,13 @@
+{
+  "repo": "flipboard",
+  "feeds": [
+    {
+      "source": "https://engineering.flipboard.com/",
+      "feed_url": "https://engineering.flipboard.com/feed.xml",
+      "saved": 10,
+      "title": "Flipboard Engineering"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:27:59Z"
+}
