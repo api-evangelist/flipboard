@@ -2,12 +2,20 @@
   "repo": "flipboard",
   "feeds": [
     {
-      "source": "https://engineering.flipboard.com/",
+      "source": "https://engineering.flipboard.com/feed",
       "feed_url": "https://engineering.flipboard.com/feed",
-      "title": "Flipboard Engineering",
-      "saved": 0
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://engineering.flipboard.com/",
+      "feed_url": "https://engineering.flipboard.com/feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
   "post_count": 10,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }
