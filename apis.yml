@@ -4,7 +4,7 @@ apis:
   - aid: flipboard:rss-feeds
     name: Flipboard RSS Feeds
     description: Flipboard supports RSS feeds as the primary integration mechanism for publishers and content creators. Publishers can submit RSS feeds to be featured as Flipboard Magazines, enabling content distribution to Flipboard's audience. Feeds must meet Flipboard's RSS guidelines, including full article body content, images of at least 400px wide, at least 30 items, and updates pushed via PubSubHubbub.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://about.flipboard.com/rss-guidelines/
     baseURL: https://flipboard.com
     tags:
@@ -24,7 +24,7 @@ apis:
   - aid: flipboard:activitypub
     name: Flipboard ActivityPub
     description: Flipboard has implemented the ActivityPub protocol, making its content available to the broader Fediverse. Starting in 2023, Flipboard began federating its magazines and curators via ActivityPub, allowing users on Mastodon, Threads, Pixelfed, and other ActivityPub-compatible platforms to follow and interact with Flipboard content. Flipboard's full architecture is built around ActivityPub.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://about.flipboard.com/inside-flipboard/flipboard-begins-to-federate/
     baseURL: https://flipboard.com
     tags:
@@ -50,7 +50,7 @@ tags:
   - RSS
   - Social Media
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
   - url: https://flipboard.com/
