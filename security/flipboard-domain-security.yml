@@ -1,0 +1,27 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: flipboard.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Mar 11 23:59:59 2027 GMT
+  hsts: false
+- host: about.flipboard.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug  7 17:24:42 2026 GMT
+  hsts: false
+domains:
+- domain: flipboard.com
+  dnssec: false
+  caa:
+  - 0 issue "pki.goog"
+  - 0 issue "amazon.com"
+  - 0 issue "amazonaws.com"
+  - 0 issue "amazontrust.com"
+  - 0 issue "awstrust.com"
+  - 0 issue "digicert.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
