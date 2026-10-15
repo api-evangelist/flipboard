@@ -1,0 +1,26 @@
+edges:
+- partner_name: ActivityPub
+  partner: activitypub
+  partner_match: shape-anchor
+  type: register
+  channel: provider-built
+  relationship: compatible
+  direction: provider-built
+  shape: activitypub
+  degree: listed-not-observed
+  evidence: https://fedidb.org/software/flipboard
+  evidence_kind: register
+  register: FediDB server software (api.fedidb.org/v1/software)
+  register_name: Flipboard
+  matched_by: domain:flipboard.com
+  instance_count: 0
+  user_count: 0
+  monthly_active_users: null
+  latest_version: null
+  source_repo: null
+  detected_by: sweep-social.py
+  first_seen: '2026-10-15'
+generated: '2026-10-15'
+method: searched
+checked:
+- https://api.fedidb.org/v1/software

@@ -1,0 +1,12 @@
+fetched: '2026-10-15'
+method: fetched
+source: https://about.flipboard.com/fediverse/
+page: https://about.flipboard.com/fediverse/
+file: flipboard-activitypub-1.md
+bytes: 474
+sha256: 49ca2be36a68f250bca21e651764bd1d21c50fad6c957092d172bf03dd8a457d
+anchor: activitypub
+shape: activitypub
+classification: no-compatibility-statement
+quote: null
+note: text extracted from the provider's own page (tags stripped), saved for evidence
