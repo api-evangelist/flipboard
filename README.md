@@ -64,27 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Flipboard is a content curation and social magazine platform that aggregates articles, videos, and social media posts into personalized, magazine-style feeds. Founded in 2010, Flipboard allows users to curate content into magazines organized around topics of interest and follow curators and publishers. The platform serves both consumers seeking personalized news and publishers looking to distribute content to engaged readers.
+Flipboard is a content curation and social magazine platform that aggregates articles, videos, and social media posts into personalized, magazine-style feeds. Founded in 2010, Flipboard allows users to curate content into magazines around topics of interest and follow curators and publishers. Flipboard has embraced open web standards, implementing ActivityPub to federate with the Fediverse and supporting RSS for publisher content distribution.
 
-Flipboard has embraced open web standards as a core part of its strategy. The company implemented ActivityPub to federate with the Fediverse, allowing Flipboard magazines and curators to be followed from Mastodon, Threads, Pixelfed, and other decentralized social platforms. In late 2024, Flipboard launched Surf, a companion app designed as a browser for the open social web that aggregates content across ActivityPub, AT Protocol (Bluesky), and RSS feeds.
+**Areas:** ActivityPub · Content Curation · Digital Publishing · Fediverse · News · RSS · Social Media
 
-**URL:** [https://flipboard.com/](https://flipboard.com/)
+## Flipboard on APIs.io
 
-## APIs
+Everything profiled for Flipboard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flipboard/](https://apis.io/providers/flipboard/)** — or go straight to one of the APIs or properties below.
 
-### RSS Feeds for Publishers
+### APIs (2)
 
-Flipboard's primary integration mechanism for publishers is RSS. Publishers submit RSS feeds to be featured as Flipboard Magazines, distributing content to Flipboard's audience. Feeds must conform to Flipboard's RSS guidelines: full article body content (not just summaries), at least one image per article at 400px minimum width, at least 30 items in the feed, and updates pushed via PubSubHubbub (Superfeedr is recommended). Flipboard provides a feed validator tool at feedvalidator.flipboard.com to help publishers verify compliance before submission.
+- [Flipboard RSS Feeds](https://apis.io/apis/flipboard/rss-feeds/) — Flipboard supports RSS feeds as the primary integration mechanism for publishers and content creators. Publishers can submit RSS feeds to be featured as…
+- [Flipboard ActivityPub](https://apis.io/apis/flipboard/activitypub/) — Flipboard has implemented the ActivityPub protocol, making its content available to the broader Fediverse. Starting in 2023, Flipboard began federating its…
 
-- **RSS Guidelines:** [https://about.flipboard.com/rss-guidelines/](https://about.flipboard.com/rss-guidelines/)
-- **For Publishers:** [https://about.flipboard.com/forpublishers/](https://about.flipboard.com/forpublishers/)
-- **Feed Validator:** [https://feedvalidator.flipboard.com/](https://feedvalidator.flipboard.com/)
-- **Submit Publisher Application:** [https://flipboard.helpshift.com/hc/en/1-flipboard/faq/1024-submit-a-publisher-application/](https://flipboard.helpshift.com/hc/en/1-flipboard/faq/1024-submit-a-publisher-application/)
+### Published properties
 
-### ActivityPub / Fediverse Federation
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Flipboard implemented ActivityPub in late 2023 and has built its entire architecture around the protocol, making it one of the most deeply federated mainstream social platforms. Flipboard magazines and curators are available to any ActivityPub-compatible Fediverse platform. By mid-2024, Flipboard had federated over 700 curators and publishers with more than 15,000 magazines accessible across the Fediverse. Flipboard's ActivityPub implementation is open source and available on GitHub.
+#### Security (1)
 
-- **ActivityPub Implementation (GitHub):** [https://github.com/Flipboard/activitypub](https://github.com/Flipboard/activitypub)
-- **Federation Announcement:** [https://about.flipboard.com/inside-flipboard/flipboard-begins-to-federate/](https://about.flipboard.com/inside-flipboard/flipboard-begins-to-federate/)
-- **Publisher Federation Guide:** [https://about.flipboard.com/business/publisher-federation-flipboard/](https://about.flipboard.com/business/publisher-federation-flipboard/)
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Flipboard Domain Security](https://apis.io/security/flipboard/flipboard-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Flipboard Plans Pricing](https://apis.io/plans/flipboard/flipboard-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Flipboard Rate Limits](https://apis.io/rate-limits/flipboard/flipboard-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Flipboard Finops](https://apis.io/finops/flipboard/flipboard-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://flipboard.com/)
+- [Documentation](https://about.flipboard.com/rss-guidelines/)
+- [Support](https://flipboard.helpshift.com/hc/en/)
+- [Blog](https://engineering.flipboard.com/)
+- [Terms of service](https://about.flipboard.com/terms-of-service/)
+- [Privacy policy](https://about.flipboard.com/privacy-policy/)
+- [GitHub](https://github.com/Flipboard)
+
+## API Evangelist rating
+
+**Kin Score 20.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.8 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flipboard/](https://apis.io/providers/flipboard/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Flipboard: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flipboard/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
